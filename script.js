@@ -75,3 +75,10 @@ function addCourse(newCourse) {
   addCourse("JAVA200");
   console.log(courses);
   
+
+  //New method to count number of courses
+  function countCourses() {
+    let total = courses.length;
+    console.log("Count of courses is " + total);
+  }
+ 
