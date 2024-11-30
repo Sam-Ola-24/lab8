@@ -36,3 +36,12 @@ console.log(
 );
 console.log(student.info());
 
+//convert object to JSON
+const studentJson = JSON.stringify(student);
+console.log(studentJson);
+
+//convert JSON back to a new object
+const studentNewObject = JSON.parse(studentJson);
+console.log(studentNewObject);
+
+//added json functionalities
