@@ -56,3 +56,7 @@ const [first, second] = scoresArray;
 console.log(first);
 console.log(second);
 
+//The spread operator
+const spreadStudentObject = { ...student, graduationYear: "2026" };
+console.log(spreadStudentObject);
+
