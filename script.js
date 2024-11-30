@@ -49,3 +49,10 @@ const { firstName, courses } = student;
 console.log(firstName);
 console.log(courses);
 
+//Array of scores to practice destructuring
+const scoresArray = [85, 92, 78, 90];
+const [first, second] = scoresArray;
+
+console.log(first);
+console.log(second);
+
