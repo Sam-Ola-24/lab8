@@ -43,3 +43,9 @@ console.log(studentJson);
 //convert JSON back to a new object
 const studentNewObject = JSON.parse(studentJson);
 console.log(studentNewObject);
+
+//Destructuring
+const { firstName, courses } = student;
+console.log(firstName);
+console.log(courses);
+
