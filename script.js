@@ -69,24 +69,22 @@ console.log(newStudentCourseArray);
 
 //New method to dynamically add course to the course array
 function addCourse(newCourse) {
-    courses.push(newCourse);
-  }
-  
-  addCourse("JAVA200");
-  console.log(courses);
-  
+  courses.push(newCourse);
+}
 
-  //New method to count number of courses
-  function countCourses() {
-    let total = courses.length;
-    console.log("Count of courses is " + total);
-  }
-   
-  //Use reduce to find the average score
-  
-  let count = scoresArray.length;
-  let total = scoresArray.reduce((addition, current) => addition + current, 0);
-  
-  let average = total / count;
-  console.log("The average score = " + average);
- 
+addCourse("JAVA200");
+console.log(courses);
+
+//New method to count number of courses
+function countCourses() {
+  let total = courses.length;
+  console.log("Count of courses is " + total);
+}
+
+//Use reduce to find the average score
+
+let count = scoresArray.length;
+let total = scoresArray.reduce((addition, current) => addition + current, 0);
+
+let average = total / count;
+console.log("The average score = " + average);
