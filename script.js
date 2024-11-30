@@ -81,4 +81,12 @@ function addCourse(newCourse) {
     let total = courses.length;
     console.log("Count of courses is " + total);
   }
+   
+  //Use reduce to find the average score
+  
+  let count = scoresArray.length;
+  let total = scoresArray.reduce((addition, current) => addition + current, 0);
+  
+  let average = total / count;
+  console.log("The average score = " + average);
  
