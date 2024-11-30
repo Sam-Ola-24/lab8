@@ -60,3 +60,11 @@ console.log(second);
 const spreadStudentObject = { ...student, graduationYear: "2026" };
 console.log(spreadStudentObject);
 
+//New array of courses
+const newCourseArray = ["PROG001", "PROG005", "PROG007", "PROG009"];
+
+const newStudentCourseArray = [...student.courses, newCourseArray];
+
+console.log(newStudentCourseArray);
+
+
