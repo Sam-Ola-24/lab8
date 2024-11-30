@@ -67,4 +67,11 @@ const newStudentCourseArray = [...student.courses, newCourseArray];
 
 console.log(newStudentCourseArray);
 
-
+//New method to dynamically add course to the course array
+function addCourse(newCourse) {
+    courses.push(newCourse);
+  }
+  
+  addCourse("JAVA200");
+  console.log(courses);
+  
