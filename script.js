@@ -43,5 +43,3 @@ console.log(studentJson);
 //convert JSON back to a new object
 const studentNewObject = JSON.parse(studentJson);
 console.log(studentNewObject);
-
-//added json functionalities
